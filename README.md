@@ -13,9 +13,11 @@ It is for players of the [Gen 1 recomp engine](https://github.com/bryanthaboi/ge
 2. In the launcher, **MODS → Import mod .zip**, then make sure **DV Viewer** is on.
 3. Start your game, then **START → POKéMON → STATS** and press **A** twice.
 
-It also appears in the launcher's **Find** tab once it is listed in the
-[mod index](https://github.com/bryanthaboi/gen1recomp-mod-index). Because the
-manifest names this repo, the launcher's **Update** button picks up new
+DV Viewer is not in the launcher's **Find** tab yet: its listing in the
+[mod index](https://github.com/bryanthaboi/gen1recomp-mod-index) is waiting for
+review in [PR #341](https://github.com/bryanthaboi/gen1recomp-mod-index/pull/341).
+Until it is merged, install it from the release zip as above. Either way, the
+manifest names this repo, so the launcher's **Update** button picks up new
 releases on its own.
 
 ## What it shows
