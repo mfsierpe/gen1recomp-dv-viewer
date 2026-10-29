@@ -1,0 +1,20 @@
+{
+  "id": "dv_viewer",
+  "name": "DV Viewer",
+  "version": "1.0.0",
+  "api": 2,
+  "entry": "main.lua",
+  "profile": "content",
+  "category": "UI",
+  "game_version": ">=0.3.97 <2.0.0",
+  "games": ["gen1"],
+  "priority": 100,
+  "author": "mfsierpe",
+  "github": "mfsierpe/gen1recomp-dv-viewer",
+  "dependencies": [],
+  "optional_dependencies": [],
+  "conflicts": [],
+  "permissions": ["engine_internals"],
+  "affects_link": false,
+  "description": "Adds a third STATS page with every DV and Stat Exp value plus a GREAT/GOOD/OK/POOR grade, and opens it right after each catch."
+}

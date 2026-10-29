@@ -1,0 +1,2 @@
+# exact paths, one per line (modkit does not expand folders)
+tests/dv_viewer_test.lua

@@ -1,0 +1,25 @@
+-- Sharing metadata (25-community-and-ecosystem.md 3.2).  Read by tooling
+-- and the manager detail pane; never by the loader's merge.
+return {
+  summary = "See every DV and Stat Exp on a third STATS page, graded, right after each catch.",
+  author = "mfsierpe",
+  contact = "https://github.com/mfsierpe/gen1recomp-dv-viewer",
+  tags = { "ui", "stats", "dvs", "quality-of-life", "catching" },
+  differences = {
+    changed = {
+      "A or B on STATS page 2 opens a third page instead of closing",
+      "a successful catch shows the new Pokemon's DV page before the battle ends",
+    },
+    added = {
+      "STATS page 3: DVs, Stat Exp, a star on perfect 15s",
+      "a DV total out of 60 with a GREAT/GOOD/OK/POOR grade",
+    },
+    known = {
+      "Gen 1 only; a mod that replaces the STATS screen outright hides page 3",
+    },
+  },
+  credits = {
+    { who = "pret/pokered", for_ = "the status screen layout and the HP DV rule the page follows" },
+  },
+  compat = { engine = ">=0.3.97 <2.0.0", modApi = 2 },
+}
